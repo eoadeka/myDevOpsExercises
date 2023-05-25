@@ -1,0 +1,14 @@
+LICENCE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+Python_Addition_Calculator.egg-info/PKG-INFO
+Python_Addition_Calculator.egg-info/SOURCES.txt
+Python_Addition_Calculator.egg-info/dependency_links.txt
+Python_Addition_Calculator.egg-info/entry_points.txt
+Python_Addition_Calculator.egg-info/requires.txt
+Python_Addition_Calculator.egg-info/top_level.txt
+package/__init__.py
+package/buildAProjectWithSetUpTools.py
+package/command_line.py

@@ -1,0 +1,2 @@
+[console_scripts]
+addition-calculator = buildAProjectWithSetUpTools.command_line:main
