@@ -1,0 +1,4 @@
+cmdkit==2.1.2
+name-generator==0.1.1
+names-generator==0.1.0
+pipdeptree==2.7.1
