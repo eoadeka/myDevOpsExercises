@@ -1,0 +1,22 @@
+# improved from the orginal
+# FROM node:latest
+FROM node:19.6-alpine
+
+# WORKDIR depends on the language/framework being used
+WORKDIR /usr/src/app
+
+ENV NODE_ENV production
+
+# it is recommended to copy packages first before installing, to optimise build time
+COPY package*.json ./ 
+
+RUN npm ci --only=production
+
+USER node
+
+COPY --chown=node:node ./src .
+
+EXPOSE 3000
+
+# add cmd that will be executed at runtime when container is created
+CMD [ "node", "index.js" ]
