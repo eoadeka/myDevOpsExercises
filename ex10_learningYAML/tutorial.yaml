@@ -1,0 +1,15 @@
+#  comment
+microservices:
+  - app: user-authentication
+    port: 9000
+    version: 1.7
+    deployed: off
+  - app: shopping-cart
+    port: 8080
+    versions: [ 1.9, 2.0, 2.1 ]
+
+---
+
+microservices:
+  - user-authentication
+  - shopping-cart
