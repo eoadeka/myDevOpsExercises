@@ -1,0 +1,10 @@
+# Get started
+aws configure
+AWS Access Key ID:
+AWS Secret Access Key:
+Default region name [us-west-2]: us-west-2
+Default output format [None]: json
+
+# To use environment variables
+set AWS_ACCESS_KEY_ID=<access_key>
+set AWS_SECRET_ACCESS_KEY=<secret_key>
